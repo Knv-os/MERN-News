@@ -18,4 +18,4 @@ app.use('/auth', authRouter)
 
 app.listen(port, () => console.log(`ta na porta ${port}`))
 
-//primeiro commit
+console.log("a")
