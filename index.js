@@ -19,5 +19,3 @@ app.use('/news', newsRoute)
 
 
 app.listen(port, () => console.log(`ta na porta ${port}`))
-
-console.log("a")

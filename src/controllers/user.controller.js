@@ -75,4 +75,4 @@ const update = async (req, res) => {
   }
 }
 
-export  { create, findAll, findById, update }
+export { create, findAll, findById, update }

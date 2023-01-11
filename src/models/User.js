@@ -17,7 +17,7 @@ const UserSchema = mongoose.Schema({
   },
   password: {
     type: String,
-    required: true,
+    required: true, 
     select: false,
   },
   avatar: {
@@ -29,6 +29,8 @@ const UserSchema = mongoose.Schema({
     required: true,
   },
 })
+
+
 
 UserSchema.pre("save", async function(next) {
   this.password = await bcrypt.hash(this.password, 10)
